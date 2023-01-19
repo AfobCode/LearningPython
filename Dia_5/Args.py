@@ -1,4 +1,4 @@
-#En la definicio de funciones cuando uso el *args
+#En la definicio de funciones.py cuando uso el *args
 #Cuando se definen los argunmentos le estoy indicando a Python
 #Que no hay una cantidad de argumentos definido
 #y el usuario podra ingresar tantos argumentos como quiera
@@ -20,7 +20,7 @@ def sumaNum(*nums):
 def tipoArgs(*args):
     return type(args) #los argumentos que pasan a *args, seran almacenados como tuplas en args
 
-#las funciones suma y sumaNum son iguales
+#las funciones.py suma y sumaNum son iguales
 
 print(suma(10,20,15,25))
 print(suma(10,20))

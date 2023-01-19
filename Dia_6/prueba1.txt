@@ -1,0 +1,10 @@
+Este es un archivo nuevo
+
+Escribir varias lineas
+sin tener que escapar 
+el salto de linea.
+Hola Mundocon el metodowritelinesHola Mundo
+Cada linea
+fue agregada
+en iteraciones de un loop
+el loop for

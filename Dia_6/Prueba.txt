@@ -1,0 +1,3 @@
+Soy la primera linea
+¡Vaya! ¡Yo soy la segunda!
+He quedado terceranueva linea agregada al final de un archivo de texto

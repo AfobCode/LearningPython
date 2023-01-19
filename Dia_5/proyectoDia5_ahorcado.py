@@ -1,7 +1,7 @@
 from proyectoDia5_ahorcado_wordlist import word_list
 from random import choice
 ###################################
-#Definicion de funciones
+#Definicion de funciones.py
 def revisar_letra(letra, palabra:str):
     palabra = palabra.lower()
     indices = []
