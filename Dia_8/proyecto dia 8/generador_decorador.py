@@ -1,9 +1,8 @@
-from os import system
-
 """
 Para el proyecto dia 8 " Generador de turnos", este modulo va a contener
 las funciones que decoran el turno y el generador de turnos
 """
+from os import system
 
 def generar_turno(area):
     """
