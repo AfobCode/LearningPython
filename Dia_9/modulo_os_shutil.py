@@ -24,6 +24,21 @@ print(os.listdir())
 
 # Metodo walk => Es un generador
 # Recorre todos los archivos, carpetas y subpetas de una ruta reterminada
-ruta = os.walk('C:\\Users\\Andres Felipe\\Documents\\Mision_TIC_2022\\Python\\Udemy_python')
+ruta = 'C:\\Users\\Andres Felipe\\Documents\\Mision_TIC_2022\\Python\\Udemy_python'
+arch = os.walk(ruta)
+print(next(arch))
 
-print(next(ruta))
+for base, carpetas, archivos in os.walk(ruta):
+    carpeta_origen = base.split('\\')[-1]
+    print(f"Estoy en la carpeta: {carpeta_origen}")
+    print(f"\tEstas Carpetas estan contenidas en: '{carpeta_origen}'")
+
+    for carpeta in carpetas:
+        print(f'\t{carpeta}')
+
+    print(f"\t\tEstos son archivos que estan contenidas en: {carpeta_origen }")
+
+    for archivo in archivos:
+        print(f"\t\t{archivo}")
+
+    print('\n')
