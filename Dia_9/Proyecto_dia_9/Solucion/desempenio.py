@@ -1,4 +1,5 @@
 from timeit import timeit
+from math import ceil
 
 statement = """
 from pathlib import Path
@@ -25,3 +26,4 @@ def coincidir(ruta):
 """
 
 duracion = timeit(statement, setup, number=100)
+duracion = ceil(duracion)
