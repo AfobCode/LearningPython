@@ -2,6 +2,7 @@ import tkinter
 import random
 import datetime
 import pathlib 
+from tkinter import filedialog, messagebox
 
 operador = ''
 
@@ -249,6 +250,7 @@ def guardar():
     historial = open('libro_de_ventas.txt','a')
     historial.write(compra_info)
     historial.close()
+    messagebox.showinfo('Informacion','Su recibo ha sido guardado')
 
     
 

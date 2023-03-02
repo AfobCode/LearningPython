@@ -1,0 +1,24 @@
+Para crear un entorno virtual
+es tan sencillo como ir abrir una terminal
+ir a la carpeta en la cual quiero crear el entorno 
+y ejecutar: 
+
+c://Ruta >virtualenv nombre_entorno_nuevo
+
+esto creara el entorno, por lo tanto
+se van a crear algunos archivos y carpertas
+
+luego, para empezar a trabajar en el entorno 
+debo ejecutar el comando
+
+c://Ruta >.\entorno_creado\Scripts\activate
+
+para confirmar que el entorno se activo
+la terminal se vera de la siguiente manera
+
+(entorno_creado) c://Ruta>
+
+Para salir del entorno virtual, solo es necesario 
+poner el comando deactivate
+
+(entorno_creado) c://Ruta>deactivate
